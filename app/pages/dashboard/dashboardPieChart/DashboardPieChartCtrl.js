@@ -11,14 +11,14 @@
   /** @ngInject */
   function DashboardPieChartCtrl($scope, $timeout, baConfig, baUtil) {
     var pieColor = baUtil.hexToRGB(baConfig.colors.defaultText, 0.2);
-    $scope.charts = [{
+    $scope.charts = [{ //iafar: controlador de directiva que consulta las directivas
       color: pieColor,
-      description: 'New Visits',
+      description: 'Tecnicos',
       stats: '57,820',
       icon: 'person',
     }, {
       color: pieColor,
-      description: 'Purchases',
+      description: 'Dispositivos',
       stats: '$ 89,745',
       icon: 'money',
     }, {
@@ -34,7 +34,7 @@
     }
     ];
 
-    function getRandomArbitrary(min, max) {
+    function getRandomArbitrary(min, max) { //iafar: generador de numeros aleatorios
       return Math.random() * (max - min) + min;
     }
 

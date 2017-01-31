@@ -35,6 +35,7 @@
             .state('tecnicosList', {
                 url: '/dispositivos',
                 templateUrl: 'app/pages/dashboardAdmin/tecnicos/partials/tecnicosList.html',
+                controller: 'tecnicosCtrl',
                 title: 'Lista de Tecnicos',
                 sidebarMeta: {
                     order: 800,
