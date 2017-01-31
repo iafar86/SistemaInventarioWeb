@@ -16,6 +16,7 @@
     'BlurAdmin.pages.charts',
     'BlurAdmin.pages.maps',
     'BlurAdmin.pages.profile',
+    'BlurAdmin.pages.dashAdmin' //iafar: referencia a routing principal de dashboard admin
   ])
       .config(routeConfig);
 
