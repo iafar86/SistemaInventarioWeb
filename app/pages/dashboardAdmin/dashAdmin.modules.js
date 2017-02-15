@@ -19,7 +19,7 @@
                 title: 'Dashboard 2',
                 sidebarMeta: {
                     icon: 'ion-android-home',
-                    order: 800
+                    order: 600
                 },
             })
 
@@ -38,7 +38,7 @@
                 controller: 'tecnicosCtrl',
                 title: 'Lista de Tecnicos',
                 sidebarMeta: {
-                    order: 800,
+                    order: 900,
                 },
                 
                 
